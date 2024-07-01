@@ -10,7 +10,7 @@ import streamlit as st
 
 # Step 1: Read the Data
 try:
-    data = pd.read_excel('data\Book1.csv')
+    data = pd.read_csv('D:\Kuliah\Semester 8\Machine Learning\knn_app\data\Book1.csv')
     print("Data loaded successfully")
 except Exception as e:
     print("Error loading data:", e)
